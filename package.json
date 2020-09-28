@@ -1,10 +1,11 @@
 {
-  "name": "compadd",
+  "name": "@rqgodoy/compadd",
   "version": "1.0.0",
   "main": "./bin/index.js",
   "license": "MIT",
+  "author": "Ricardo Godoy <rq.godoy@gmail.com>",
   "bin": {
-    "compadd": "./bin/index.js"
+    "compadd": "bin/index.js"
   },
   "dependencies": {
     "camelcase": "^6.0.0",
@@ -12,5 +13,22 @@
     "json-stable-stringify": "^1.0.1",
     "shelljs": "^0.8.4",
     "yargs": "^16.0.3"
-  }
+  },
+  "description": "`yarn add compadd -D`",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardoQLG/compadd.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/RicardoQLG/compadd/issues"
+  },
+  "homepage": "https://github.com/RicardoQLG/compadd#readme"
 }
