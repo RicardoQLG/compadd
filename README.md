@@ -1,6 +1,6 @@
 # How to install
 
-`yarn add compadd -D`
+`yarn add @rqgodoy/compadd -D`
 
 # How to use
 
