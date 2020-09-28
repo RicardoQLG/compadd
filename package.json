@@ -1,0 +1,16 @@
+{
+  "name": "compadd",
+  "version": "1.0.0",
+  "main": "./bin/index.js",
+  "license": "MIT",
+  "bin": {
+    "compadd": "./bin/index.js"
+  },
+  "dependencies": {
+    "camelcase": "^6.0.0",
+    "debug": "^4.2.0",
+    "json-stable-stringify": "^1.0.1",
+    "shelljs": "^0.8.4",
+    "yargs": "^16.0.3"
+  }
+}
